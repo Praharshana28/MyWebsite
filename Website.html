@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer {
+            background-color: cadetblue;
+            font-size: 40px;
+            text-align: center;
+            color: black;
+            padding: 20px;
+        }
+
+        .Car {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: nowrap;
+            padding: 40px 20px;
+        }
+
+        .Bag {
+            transition: all 0.5s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 350px;
+            height: 480px;
+            border: 3px solid blueviolet;
+            border-radius: 30px;
+            padding: 15px; /* Add padding inside the border */
+            box-sizing: border-box;
+        }
+
+        .Bag:hover {
+            transform: scale(0.95) rotate(3deg);
+            background-color: burlywood;
+            border: 3px solid gray;
+            color: white;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Students Club</header>
+
+    <div class="Car">
+        <div class="Bag">
+            <h1>Category</h1>
+            <img src="std.jpg" alt="Main Image Here">
+            <h1>Student</h1>
+        </div>
+        <div class="Bag">
+            <h1>Category</h1>
+            <img src="std.jpg" alt="Main Image Here">
+            <h1>Student</h1>
+        </div>
+        <div class="Bag">
+            <h1>Category</h1>
+            <img src="std.jpg" alt="Main Image Here">
+            <h1>Student</h1>
+        </div>
+        <div class="Bag">
+            <h1>Category</h1>
+            <img src="std.jpg" alt="Main Image Here">
+            <h1>Student</h1>
+        </div>
+    </div>
+
+    <footer>success@students.com</footer>
+
+</body>
+</html>
